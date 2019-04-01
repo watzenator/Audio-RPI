@@ -4,8 +4,6 @@
 
 int main(){
   std::cout << "start playing audio";
-  std::string cwd = getcwd();
-  std::cout << cwd;
-  //system("omxplayer $HOME/");
+  system("omxplayer /home/pi/Audio-RPI/dog-bark1.wav");
   std::cout << "done playing";
 }
